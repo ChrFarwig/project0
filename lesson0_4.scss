@@ -1,0 +1,29 @@
+$color: red;
+$size: 32px;
+$font: Helvetica;
+$listfont: Palatino;
+
+p {
+  font: $font;
+  color: $color;
+  font-size: $size;
+}
+
+.yellow {
+  font-family: $font;
+  color: yellow;
+  font-size: $size;
+}
+
+ul {
+  font-family: $listfont;
+  color: red;
+  padding: 20px;
+
+  border: 1;
+  li {
+    color: blue;
+  }
+}
+
+ol { @extend ul;}

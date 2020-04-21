@@ -1,0 +1,23 @@
+p {
+  font: Helvetica;
+  color: red;
+  font-size: 32px;
+}
+
+.yellow {
+  font-family: Helvetica;
+  color: yellow;
+  font-size: 32px;
+}
+
+ul, ol {
+  font-family: Palatino;
+  color: red;
+  padding: 20px;
+  border: 1;
+}
+ul li, ol li {
+  color: blue;
+}
+
+/*# sourceMappingURL=lesson0_4.css.map */

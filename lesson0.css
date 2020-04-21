@@ -1,0 +1,53 @@
+
+
+h1 {
+  font-size: 36px;
+  color: green;
+}
+
+ol {
+  color: blue
+}
+ul {
+  color: green
+}
+
+table {
+  border: "1";
+  border-color: black;
+  border-style: double;
+  padding: 10px;
+  column-gap: 10px;
+  background-color: yellow;
+  color: black‚;
+}
+
+th {
+   border: 1px solid black;
+}
+
+td {text-align: center;}
+
+.reference {
+  font-style: italic;
+  background: yellow;
+  color: white;
+}
+
+.col-sm
+{
+  border-style: solid;
+}
+
+#remark {
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+  background-color: yellow;
+}
+
+@media (max-width: 599px)  { p { color: red } }
+@media (min-width: 600px)  { p { color: black } }
+
+
+}
